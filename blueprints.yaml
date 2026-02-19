@@ -1,0 +1,30 @@
+name: Theme Support
+slug: theme-support
+type: plugin
+version: 1.0.0
+description: Customize theme and admin CSS and JS, as well as load custom Twig templates, blueprints, Shortcodes and external JS resources.
+icon: plug
+author:
+  name: Hibbitts Design
+  email: paul@hibbittsdesign.org
+  url: http://hibbittsdesign.org
+keywords: grav, css, javascript, admin, theme, shortcodes 
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.7.0' }
+  - { name: shortcode-core, version: '>=5.0.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
