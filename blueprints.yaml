@@ -2,7 +2,7 @@ name: Theme Support
 slug: theme-support
 type: plugin
 version: 1.0.0
-description: Customize theme and admin CSS and JS, as well as load custom Twig templates, blueprints, Shortcodes and external JS resources.
+description: Customize theme and admin CSS and JS, and load custom Twig templates, blueprints, and Shortcodes.
 icon: plug
 author:
   name: Hibbitts Design

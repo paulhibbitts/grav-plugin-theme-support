@@ -57,6 +57,10 @@ class ThemeSupportPlugin extends Plugin
 
     public function onShortcodeHandlers()
     {
+        if (!isset($this->grav['shortcode'])) {
+            return;
+        }
+
         $shortcodes = $this->grav['shortcode'];
         $dir = __DIR__ . '/shortcodes';
 
