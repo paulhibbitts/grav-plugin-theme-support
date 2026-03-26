@@ -1,7 +1,7 @@
 name: Theme Support
 slug: theme-support
 type: plugin
-version: 1.0.0
+version: 0.9.0
 description: Customize theme and admin CSS and JS, and load custom Twig templates, blueprints, and Shortcodes.
 icon: plug
 author:
